@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: "Philificent",
+    siteUrl: `https://philificent.com`,
   },
   plugins: [
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
-    //"gatsby-plugin-sitemap",
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
