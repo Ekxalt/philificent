@@ -4,9 +4,12 @@ path: /updog
 date: 2021-02-27
 ---
 
-import Layout from "../components/layout"
+import Layout from "../components/layout-post"
+import Title from "../components/title"
 
-<section class="mb-8">test in section?</section>
+<Title titleText={"37 new ways to skin a fake plastic tree"} />
+
+{props.pageContext.frontmatter.title}
 
 # Nothing, what's up with you?
 
@@ -14,6 +17,6 @@ I miss when life and things were simpler, not like way back pre-electricity time
 no, I'm talking more about the times we used to have where people had "thick-skin",
 and sticking up for someone didn't shame them in ways I still don't understand.
 
-The office was simple once, I liked that.
+The office was an example of the simple we used to live by once, I liked that.
 
 export default Layout

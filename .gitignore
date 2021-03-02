@@ -20,4 +20,5 @@ yarn-error.log*
 
 #editors
 *.code-workspace
-.vscode
+.vscode/
+.idea/
